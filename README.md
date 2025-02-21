@@ -24,7 +24,11 @@ npm i
 
 3. Enter Supabase keys
 ```
-mv .env.example .env.local
+touch .env.local
+```
+```
+NEXT_PUBLIC_SUPABASE_URL=<paste_supabase_url>
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<paste_supabase_anon_key>
 ```
 
 4. Run development server
